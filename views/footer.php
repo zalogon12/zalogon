@@ -15,5 +15,5 @@
       </div>
     </div>
     
-  </footer><div class="copyright">&copy; 2022 <b> zalogon </b> - Todos los Derechos Reservados.</div>
+  </footer><div class="copyright">&copy; 2022 <b>zalogon</b> - Todos los Derechos Reservados.</div>
 

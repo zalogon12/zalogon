@@ -1,11 +1,17 @@
-<div id="barra">
-        <ul id="h_1">
-            <li><a href="#"><img src="" alt="">INICIO</a></li>
-            <li><a href="#"><img src="" alt="">CONTACTO</a></li>
-            <li><a href="#"><img src="" alt="">Proyectos</a></li>
-          </ul>
-        </div>
+<div class="menu">
+  <a class="cont-nav-a" href="#"><nav>
+    <img src="" alt="">
+    </nav>Inicio</a>
 
+    <a class="cont-nav-a" href="#"><nav>
+    <img src="" alt="">
+    </nav>Contactos</a>
+
+    <a class="cont-nav-a" href="#"><nav>
+    <img src="" alt="">
+    </nav>Proyectos</a>
+  
+</div>
         <div id="txtnom">
     <img src="" alt="">
         </div>
