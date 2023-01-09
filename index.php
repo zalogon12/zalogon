@@ -17,7 +17,7 @@
           <?php require_once 'views/header.php';?>
     
 <div id="cont-blog">
-  <div class="datos"><p id="txt-sm">Sobre Mi</p>
+  <div class="datos"><p id="txt-sm">Datos Personales</p>
    <div id="cont-perfil"><img id="perfil" src="public/css/img/foto.jpg" alt=""></div>
     <div class="datos-pers">
         <div class="cont-dato">
@@ -36,8 +36,25 @@
     </div>
 </div>
 
-  <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sint maxime debitis asperiores et neque est distinctio laudantium atque eligendi, deserunt alias itaque repellendus fuga, voluptate, earum facilis minima consequuntur!</div>
-  <div></div>
+  <div class="info">
+  <h1 class="tit-nom">Gonzalo Fernández - Desarrollador web</h1>
+
+<p>Bienvenido a mi sitio web personal, soy Gonzalo Fernández y me dedico al desarrollo web. En este sitio encontrarás información sobre mi trayectoria profesional y mis habilidades como desarrollador web.</p>
+
+<h1 class="tit-sub">Sobre mí</h1>
+
+<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir mis estudios en la universidad ORT.</p>
+<h1 class="tit-sub">Objetivos</h1> 
+<p>Mi objetivo es seguir aprendiendo y mejorando mis conocimientos para poder ofrecer soluciones web de alta calidad a mis clientes.
+
+Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlaces a mi perfil en redes sociales y a mi trabajo online. Si estás interesado en contratar mis servicios o simplemente quieres ponerte en contacto conmigo, no dudes en enviarme un correo electrónico o llamarme a través de la información de contacto que encontrarás en este sitio.</p>
+<div class="cont-img-leng">
+  <img class="img-ann" src="public/css/img/html5-logo-31819.png">
+  <img class="img-an" src="public/css/img/logo-mysql-26300.png">
+  <img class="img-an" src="public/css/img/php.png">
+</div>
+</div>
+
 </div>
   
         <?php require_once 'views/footer.php';?>
