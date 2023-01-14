@@ -57,7 +57,7 @@ Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlace
 
 </div>
   
-        <?php require_once 'views/footer.php';?>
+  
         
 <!-- <video muted autoplay loop>
 <source src="fondoo.mp4"  >
