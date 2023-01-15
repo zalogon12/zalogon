@@ -15,7 +15,8 @@
     <div class="container-pro">
     <img src="public/css/img/Captura de pantalla 2023-01-13 205514.png" alt="">  
     <div id="info-pro"><h4>TopTyrProject</h4>
-    <p><b>PHP</b> 55.6% <b>CSS</b> 34.8% <b>JS</b> 8.2% <b>Other</b> 1.4%</p>
+    <p id="contrib">Contributors: Alfonso Testa Geronimo Castro Gonzalo Fernandez Emanuel Solis</p>
+    <p id="tecno"><b>PHP</b> 55.6% <b>CSS</b> 34.8% <b>JS</b> 8.2% <b>Other</b> 1.4%</p>
   </div>
     </div></a>
 

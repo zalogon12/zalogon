@@ -94,6 +94,10 @@ video{
     padding: 4px;
   
 }
+.cont-img-red img:hover{
+  transform: scale(1.06);
+  filter: brightness(30%); 
+}
 .cont-img-red{
   align-items: center;
   justify-content: center;
@@ -131,15 +135,16 @@ margin-left: 4vw;
   display: flex;
   align-items: center;
   width: 30%;
-  padding: 4px;
+  padding: 11px;
   border-radius: 3px;
   margin: 0 4px;
   font-size: 17px;
   font-weight: 600;
 }
 .cont-nav-a:hover{
-  cursor: pointer;
-  background-color: rgb(92, 92, 92);
+  transform: scale(1.06);
+  filter: brightness(30%); 
+
 }
 
 nav img {
@@ -254,7 +259,7 @@ width: 100%;
   border-radius: 4px;
 }
 .container-pro:hover{
-  transform: scale(0.99);
+  transform: scale(1.02);
 }
 #info-pro{
   width: 100%;
@@ -271,7 +276,7 @@ margin-top: 4px;
   justify-content: center;
   text-align: center;
 margin: 0;
-margin-top: 20px;
+margin-top: 6px;
 
 }
 .container-pro img{
@@ -280,4 +285,10 @@ height: 60%;
 margin-left: 2.5%;
 border-radius: 5px;
 margin-top: 2.5%;
+}
+#tecno{
+  font-size: 10px;
+}
+#contrib{
+  font-size: 12px;
 }
