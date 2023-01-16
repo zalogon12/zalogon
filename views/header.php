@@ -4,7 +4,7 @@
     <img src="public/css/img/hom.png" alt="">
     </nav>Inicio</a>
 
-    <a class="cont-nav-a" href="#"><nav>
+    <a class="cont-nav-a" href="Contactos.php"><nav>
     <img src="public/css/img/phon.png" alt="">
     </nav>Contactos</a>
 

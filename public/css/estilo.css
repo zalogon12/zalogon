@@ -108,20 +108,7 @@ margin-left: 4vw;
 }
 
 
-#barra{
-    grid-column: 2;
-    grid-row: 1;
 
-    width: 100%;
-    background-color: rgb(5, 7, 131);
-
-  
-
-  position:sticky  ;
- 
-  z-index: 100;
-  
-}
 .menu {
   display: flex;
   justify-content: center;
@@ -291,4 +278,148 @@ margin-top: 2.5%;
 }
 #contrib{
   font-size: 12px;
+}
+
+
+
+#cont-tit-proyect{
+  width: 100%;
+  height: 10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 24% 36% 40%);
+  grid-template-rows: repeat(1, 100%);
+  margin-top: 3vh;
+ 
+  background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
+
+}
+#cont-contacto{
+  background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
+  width: 100%;
+  height: 60vh;
+}
+form {
+ 
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3vh;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+#nombre-c{
+  padding-top: 5vh;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  background: linear-gradient(78deg, rgba(42, 44, 46, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
+border: none;
+}
+input:focus {
+  outline: none;
+}
+#message{
+height: 12vh;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  #cont-blog{
+    width: 100%;
+    height: 84vh;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(1, 100%);
+    grid-gap: 2%;
+    margin-top: 3vh;
+}
+#cont-tit {
+  width: 100%;
+  height: 20vh;
+ 
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(2, 50% 50%);
+ 
+}
+#redsocial{
+  grid-column: 1;
+  grid-row: 1;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  height: 100%;  
+  margin-left: auto; 
+
+}
+.menu {
+
+  grid-column: 1;
+  grid-row: 2;
+  padding: 0px;
+  
+}
+
+.cont-img-red {
+
+    margin-left: 0vw;
+}
+.cont-img-red img {
+    width: 25px;
+    height: 25px;
+
+}
+.cont-nav-a {
+
+    margin: 0 0px;
+    font-size: 14px;
+ 
+}
+nav img {
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+    margin-top: 6px;
+}
+.info {
+    
+    margin-top: 1vh;
+    
+}
+#cont-tit-proyect {
+  width: 100%;
+  height: 20vh;
+ 
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(2, 50% 50%);
+ 
+}
+.cont-proyectos {
+ width: 89%;
+    height: 100vh;
+    display: grid;
+    padding: 19px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(1, 50% );
+
+}
+form {
+
+  width: 70%;
+
+  
+}
 }
