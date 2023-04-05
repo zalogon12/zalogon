@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="public/css/estilo.css">
 
 </head>
-<body>
-  <!-- <header>
-        
-        <div class="absolute">-->
-            
+<body>      
+  
             <div class="hoja">
         <div id="cont-tit">
           <?php require_once 'views/header.php';?>
@@ -44,7 +41,7 @@
 
 <h1 class="tit-sub">Sobre mí</h1>
 
-<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir mis estudios en la universidad ORT.</p>
+<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir mis estudios en una universidad especializada en el desarollo de AI.</p>
 <h1 class="tit-sub">Objetivos</h1> 
 <p>Mi objetivo es seguir aprendiendo y mejorando mis conocimientos para poder ofrecer soluciones web de alta calidad a mis clientes.
 
@@ -55,15 +52,9 @@ Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlace
   <img class="img-an" src="public/css/img/php.png">
 </div>
 </div>
-
 </div>
-  
-  
-        
-<!-- <video muted autoplay loop>
-<source src="fondoo.mp4"  >
-</video>
-</header>-->
+  </div>
+
 
 </body>
 </html>

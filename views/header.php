@@ -13,9 +13,7 @@
     </nav>Proyectos</a>
     
 </div>
-        <div id="txtnom">
-    <img src="" alt="">
-        </div>
+      
         <div id="redsocial">
           <div class="cont-img-red">
         <a href="#"><img src="public/css/img/gh.png" alt=""></a>

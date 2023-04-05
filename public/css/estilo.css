@@ -10,44 +10,36 @@
 }
 body{
     padding: 0;
-    margin: 0;
-    background-color: black;
+    margin: 0;background-color: black;
+}
 
-}
-/*header{
-    width: 100%;
-    position: relative;
-    height: auto;
-    overflow: hidden;
-display: flex;
-justify-content: center;
-align-items: center;     
-}
-.absolute{
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    position: absolute;
-    text-align: center;
-}
-video{
-    width: 100%;
-   
-}*/
 
 .hoja{
  
     width: 85%;
     height: 90vh;
-    
+  
  margin: auto;
+}
+.hoja-contacto{
+ 
+  width: 85%;
+  height: 90vh;
+
+margin: auto;
+}
+.hoja-proyecto{
+ 
+  width: 85%;
+  height: 90vh;
+
+margin: auto;
 }
 #cont-tit{
     width: 100%;
     height: 10vh;
     display: grid;
-    grid-template-columns: repeat(3, 24% 36% 40%);
+    grid-template-columns: repeat(1, 40% 25% 35%);
     grid-template-rows: repeat(1, 100%);
     margin-top: 3vh;
    
@@ -66,15 +58,24 @@ video{
   }
   .cont-proyectos{
     width: 100%;
-    height: 82vh;
+    height: 81vh;
     display: grid;
-    padding: 19px;
+
     grid-template-columns: repeat(1, 33% 33% 33%);
     grid-template-rows: repeat(1, 50% 50%  );
    
     margin-top: 3vh;
     background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
+    overflow: auto;
 
+  }
+  .cont-proyectos::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .cont-proyectos::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
   }
 #redsocial{
     grid-column: 3;
@@ -89,9 +90,10 @@ video{
 }
 
 .cont-img-red img{
-    width: 35px;
-    height: 35px; 
-    padding: 4px;
+    width: 30px;
+    height: 30px; 
+    padding: 5px;
+    margin-top: 2px;
   
 }
 .cont-img-red img:hover{
@@ -121,39 +123,33 @@ margin-left: 4vw;
 .cont-nav-a {
   display: flex;
   align-items: center;
-  width: 30%;
+
   padding: 11px;
   border-radius: 3px;
   margin: 0 4px;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
+
 }
 .cont-nav-a:hover{
-  transform: scale(1.06);
+  transform: scale(1.01);
   filter: brightness(30%); 
 
 }
 
 nav img {
-  width: 30px;
-    height: 30px;
+  width: 25px;
+    height: 25px;
     margin-right: 15px;
     margin-top: 10px;
     
 }
 
 
-#txtnom{
-    grid-column: 1;
-    grid-row: 1;
-    float: left;
-    align-items: center;
-
-}
 
 #cont-blog{
     width: 100%;
-    height: 82vh;
+    height: 81vh;
     display: grid;
     grid-template-columns: repeat(1, 22% 76%);
     grid-template-rows: repeat(1, 100%);
@@ -217,7 +213,8 @@ width: 100%;
 }
 .info{   
   border-radius: 2.5px; 
-  padding: 28px;
+  padding-left: 2vh;
+  padding-right: 2vh;
   background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);
 }
 
@@ -237,8 +234,10 @@ width: 100%;
 }
 
 .container-pro {
-  width: 98%;
-  height: 98%;
+  width: 97%;
+  height: 95%;
+  margin-left: 3%;
+  margin-top: 1.8%;
 
   grid-column: 1;
   grid-row: 1;
@@ -247,6 +246,7 @@ width: 100%;
 }
 .container-pro:hover{
   transform: scale(1.02);
+  
 }
 #info-pro{
   width: 100%;
@@ -282,21 +282,11 @@ margin-top: 2.5%;
 
 
 
-#cont-tit-proyect{
-  width: 100%;
-  height: 10vh;
-  display: grid;
-  grid-template-columns: repeat(3, 24% 36% 40%);
-  grid-template-rows: repeat(1, 100%);
-  margin-top: 3vh;
- 
-  background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
 
-}
 #cont-contacto{
   background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
   width: 100%;
-  height: 60vh;
+  height: 81vh;
 }
 form {
  
@@ -335,31 +325,49 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
 }
+.sas{
+  justify-content: center;
+  text-align: center;
+ padding: 4px;
+ padding-top: 30px;
+ 
+}
 
 @media only screen and (max-width: 767px) {
+ .hoja{
+padding-bottom: 2vh;
+height: 273vh;
+ }
+ .hoja-proyecto{
+  padding-bottom: 2vh;
+  height: 123vh;
+   }
+   .hoja-contacto{
+    padding-bottom: 2vh;
+    height: 123vh;
+     }
   #cont-blog{
     width: 100%;
-    height: 84vh;
+    height: 235vh;
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(1, 100%);
-    grid-gap: 2%;
-    margin-top: 3vh;
+    grid-template-rows: repeat(1, 65% 35%);
+    grid-gap: 1.3%;
+
 }
+
 #cont-tit {
   width: 100%;
   height: 20vh;
  
   grid-template-columns: repeat(1, 100%);
-  grid-template-rows: repeat(2, 50% 50%);
+  grid-template-rows: repeat(2, 50%);
  
 }
 #redsocial{
   grid-column: 1;
-  grid-row: 1;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  grid-row: 2;
+
 
   height: 100%;  
   margin-left: auto; 
@@ -368,14 +376,15 @@ input[type="submit"] {
 .menu {
 
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
   padding: 0px;
   
 }
 
 .cont-img-red {
-
+  margin-top: 1.2vh;
     margin-left: 0vw;
+    margin-right: 0.7vw;
 }
 .cont-img-red img {
     width: 25px;
@@ -385,19 +394,28 @@ input[type="submit"] {
 .cont-nav-a {
 
     margin: 0 0px;
-    font-size: 14px;
+    font-size: 11px;
  
 }
 nav img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-right: 14px;
     margin-top: 6px;
 }
 .info {
     
-    margin-top: 1vh;
+
+    grid-row: 1;
+    grid-column: 1;
+
     
+}
+.datos {
+  grid-row: 2;
+    grid-column: 1;
+
+    margin-bottom: 3vh;
 }
 #cont-tit-proyect {
   width: 100%;
@@ -409,7 +427,7 @@ nav img {
 }
 .cont-proyectos {
  width: 89%;
-    height: 100vh;
+   
     display: grid;
     padding: 19px;
     grid-template-columns: repeat(1, 100%);
@@ -419,7 +437,12 @@ nav img {
 form {
 
   width: 70%;
-
-  
+ 
 }
+.sas {
+
+  padding: 20px;
+  padding-top: 30px;
+}
+
 }

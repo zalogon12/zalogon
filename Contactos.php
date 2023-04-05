@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="public/css/estilo.css">
 </head>
 <body>
-<div class="hoja"><div id="cont-tit">
+<div class="hoja-contacto"><div id="cont-tit">
     <?php require_once 'views/header.php';?>
     <div id="cont-contacto">
+      <p class="sas">Si tienes alguna pregunta o deseas contactarme, por favor completa el siguiente formulario:</p>
   <form>
   <label id="nombre-c"for="name">Nombre:</label>
   <input type="text" id="name" name="name" required>
@@ -23,6 +24,8 @@
 
   <input type="submit" value="Enviar">
 </form>
+<p class="sas">¡Gracias por tu interés! Te responderé tan pronto como sea posible.
+</p>
 </div>
 </div>
 </body>
