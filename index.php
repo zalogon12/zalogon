@@ -49,6 +49,7 @@ Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlace
 <div class="cont-img-leng">
   <img class="img-ann" src="public/css/img/html5-logo-31819.png">
   <img class="img-an" src="public/css/img/logo-mysql-26300.png">
+  <img class="img-annn" src="public/css/img/gitic.png">
   <img class="img-an" src="public/css/img/php.png">
 </div>
 </div>

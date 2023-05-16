@@ -15,7 +15,7 @@
                 "reference": "8768448244967a46d6e67b891d30878e0e15d25c"
             },
             "dist": {
-                "type": "zip",
+              "type": "zip",
                 "url": "https://api.github.com/repos/dompdf/dompdf/zipball/8768448244967a46d6e67b891d30878e0e15d25c",
                 "reference": "8768448244967a46d6e67b891d30878e0e15d25c",
                 "shasum": ""

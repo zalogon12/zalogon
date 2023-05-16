@@ -8,9 +8,22 @@
 
   
 }
-body{
-    padding: 0;
-    margin: 0;background-color: black;
+body {
+  background: linear-gradient(230deg,#0e0e0e,#1f1f1f);
+  background-size: 60% 60%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 
@@ -232,6 +245,11 @@ width: 100%;
   width: 65px;
   height: 30px;
 }
+.img-annn{
+  width: 33px;
+  height: 30px;
+}
+
 
 .container-pro {
   width: 97%;
@@ -426,8 +444,8 @@ nav img {
  
 }
 .cont-proyectos {
- width: 89%;
-   
+   width: 89%;
+   height: 75vh;
     display: grid;
     padding: 19px;
     grid-template-columns: repeat(1, 100%);
