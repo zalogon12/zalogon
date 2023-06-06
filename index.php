@@ -41,10 +41,10 @@
 
 <h1 class="tit-sub">Sobre mí</h1>
 
-<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir mis estudios en una universidad especializada en el desarollo de AI.</p>
-<h1 class="tit-sub">Objetivos</h1> 
-<p>Mi objetivo es seguir aprendiendo y mejorando mis conocimientos para poder ofrecer soluciones web de alta calidad a mis clientes.
+<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir estudiando nuevos lenguajes y tecnologias.</p>
+<h1 class="tit-sub">Objetivos</h1> conocimientos para poder ofrecer soluciones web de alta calidad a mis clientes.
 
+<p>Mi objetivo es seguir aprendiendo y mejorando mis 
 Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlaces a mi perfil en redes sociales y a mi trabajo online. Si estás interesado en contratar mis servicios o simplemente quieres ponerte en contacto conmigo, no dudes en enviarme un correo electrónico o llamarme a través de la información de contacto que encontrarás en este sitio.</p>
 <div class="cont-img-leng">
   <img class="img-ann" src="public/css/img/html5-logo-31819.png">

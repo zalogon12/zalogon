@@ -1,7 +1,15 @@
 {
+    "name": "zalogon/zalogon",
+    "description": "Mi pagina personal",
+    "type": "library",
     "require": {
-        "firebase/php-jwt": "^5.4",
-        "dompdf/dompdf": "^1.0",
-        "phpmailer/phpmailer": "^6.5"
-    }
+        "monolog/monolog": "^3.3"
+    },
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "Zalogon\\Zalogon\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }

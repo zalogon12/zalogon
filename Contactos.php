@@ -22,7 +22,8 @@
   <label for="message">Mensaje:</label>
   <textarea id="message" name="message" required></textarea>
 
-  <input type="submit" value="Enviar">
+  <button class="boton">Enviar</button>
+
 </form>
 <p class="sas">¡Gracias por tu interés! Te responderé tan pronto como sea posible.
 </p>

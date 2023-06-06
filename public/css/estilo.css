@@ -81,6 +81,7 @@ margin: auto;
     background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
     overflow: auto;
 
+    
   }
   .cont-proyectos::-webkit-scrollbar {
     width: 8px;
@@ -291,15 +292,37 @@ margin-left: 2.5%;
 border-radius: 5px;
 margin-top: 2.5%;
 }
+
 #tecno{
   font-size: 10px;
 }
+
 #contrib{
   font-size: 12px;
 }
 
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4caf50;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
+.boton:hover {
+  background-color: #45a049;
+}
 
+.boton:active {
+  background-color: #3e8e41;
+}
 
 #cont-contacto{
   background: linear-gradient(50deg, rgba(33, 37, 41, 0.329) 0%, rgba(33, 37, 41, 0.24) 100%);   border-radius: 2.5px; 
