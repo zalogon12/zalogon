@@ -35,17 +35,16 @@
 </div>
 
   <div class="info">
-  <h1 class="tit-nom">Gonzalo Fernández - Desarrollador web</h1>
+  <h1 class="tit-nom">Gonzalo Fernández</h1>
 
-<p>Bienvenido a mi sitio web personal, soy Gonzalo Fernández y me dedico al desarrollo web. En este sitio encontrarás información sobre mi trayectoria profesional y mis habilidades como desarrollador web.</p>
+<p>Welcome to my website! I'm Gonzalo Fernández, a web developer and programmer. Here you will find information about my professional background and skills in web development.</p>
 
 <h1 class="tit-sub">Sobre mí</h1>
 
-<p>Soy un estudiante con experiencia en proyectos de desarrollo de aplicaciones y sitios web utilizando tecnologías como HTML, CSS, JavaScript y PHP. Además, tengo conocimientos en bases de datos y habilidades en diseño y usabilidad. Actualmente termine mis estudios de Bachelor of Technology en Programación informática en la UTU - Dirección General de Educación Técnico-Profesional y planeo seguir estudiando nuevos lenguajes y tecnologias.</p>
-<h1 class="tit-sub">Objetivos</h1> conocimientos para poder ofrecer soluciones web de alta calidad a mis clientes.
+<p>I have experience in web development projects using technologies such as HTML, CSS, JavaScript, and PHP. Additionally, I have knowledge in databases and skills in design and usability. I completed my Bachelor of Technology studies in Computer Programming at UTU - Dirección General de Educación Técnico-Profesional and plan to continue studying new languages and technologies.</p>
+<h1 class="tit-sub">Objetivos</h1> 
 
-<p>Mi objetivo es seguir aprendiendo y mejorando mis 
-Aquí podrás ver algunos de mis proyectos más destacados y encontrarás enlaces a mi perfil en redes sociales y a mi trabajo online. Si estás interesado en contratar mis servicios o simplemente quieres ponerte en contacto conmigo, no dudes en enviarme un correo electrónico o llamarme a través de la información de contacto que encontrarás en este sitio.</p>
+<p>My goal is to continue learning and improving my skills in order to provide high-quality solutions to my clients. Here you can see some of my most notable projects and find links to my social media profiles and online work. If you are interested in hiring my services or simply want to get in touch with me, please don't hesitate to send me an email or call me using the contact information provided on this site.</p>
 <div class="cont-img-leng">
   <img class="img-ann" src="public/css/img/html5-logo-31819.png">
   <img class="img-an" src="public/css/img/logo-mysql-26300.png">

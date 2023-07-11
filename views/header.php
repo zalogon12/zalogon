@@ -2,15 +2,15 @@
 <div class="menu">
   <a class="cont-nav-a" href="index.php"><nav>
     <img src="public/css/img/hom.png" alt="">
-    </nav>Inicio</a>
+    </nav>Home</a>
 
     <a class="cont-nav-a" href="Contactos.php"><nav>
     <img src="public/css/img/phon.png" alt="">
-    </nav>Contactos</a>
+    </nav>Hire Me</a>
 
     <a class="cont-nav-a" href="Proyectos.php" ><nav>
     <img src="public/css/img/proye.png" alt="">
-    </nav>Proyectos</a>
+    </nav>Projects</a>
     
 </div>
       
