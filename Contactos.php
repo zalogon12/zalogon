@@ -7,13 +7,31 @@
     <title>Document</title>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     <link rel="stylesheet" href="public/css/estilo.css">
 </head>
+<script src="js/nombre-archivo.js"></script>
 <body>
 <div class="hoja-contacto"><div id="cont-tit">
     <?php require_once 'views/header.php';?>
-    <div id="cont-contacto">
-      <p class="sas">Si tienes alguna pregunta o deseas contactarme, por favor completa el siguiente formulario:</p>
-//Aqui van  
-<p class="sas">¡Gracias por tu interés! Te responderé tan pronto como sea posible.</p>
+    <div class="cont-contacto">
+    <h2>Enviar correo electrónico</h2>
+    <form class="formulario" id="formularioCorreo">
+        <div class="campo">
+            <label for="destinatario">Para:</label>
+            <input type="email" id="destinatario" required>
+        </div>
+
+        <div class="campo">
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+</div>
 </div>
 </div>
 </body>
