@@ -16,10 +16,10 @@
       
         <div id="redsocial">
           <div class="cont-img-red">
-        <a href="#"><img src="public/css/img/gitm.png" alt=""></a>
-        <a href="#"><img src="public/css/img/inm.png" alt=""></a>
-        <a href="#"><img src="public/css/img/igm.png" alt=""></a>
-        <a href="#"><img src="public/css/img/ggmm.png" alt=""></a>
+        <a href="#"><img src="public/css/img/gh.png" alt=""></a>
+        <a href="#"><img src="public/css/img/in.png" alt=""></a>
+        <a href="#"><img src="public/css/img/ig.png" alt=""></a>
+        <a href="#"><img src="public/css/img/ws.png" alt=""></a>
         </div></div>
  </div>       
 

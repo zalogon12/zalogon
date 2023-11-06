@@ -35,7 +35,7 @@
 </div>
 
   <div class="info">
-  <h1 class="tit-nom">Gonzalo Fernández</h1>
+  <h1 class="tit-sub">Gonzalo Fernández</h1>
 
 <p>Welcome to my website! I'm Gonzalo Fernández, a web developer and programmer. Here you will find information about my professional background and skills in web development.</p>
 
